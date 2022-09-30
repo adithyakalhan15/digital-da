@@ -1,0 +1,97 @@
+.red{
+    background-color: red;
+}
+
+*{
+    font-family: 'Mukta', sans-serif;
+}
+
+.nav-5{
+    background-color: rgb(169, 97, 228, 0.5);
+    width: 300px;
+    border-radius: 25px 0 25px 25px;
+    
+}
+.nav-5 ul{
+    background: transparent;
+}
+.main-banner-txt button{
+    border: none;
+    background-color: blueviolet;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.nav-5 ul li{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(244, 188, 255);
+    width: 150px;
+    border-radius: 20px;
+    margin: 10px 0 0 0;
+    padding: 5px 6px 7px 60px;
+    
+}
+.nav-5 ul li:nth-child(1):hover{
+    background-color: rgb(31, 77, 215);
+    color: white;
+}
+.nav-5 ul li:nth-child(2):hover{
+    background-color: rgb(157, 0, 0);
+    color: white;
+}
+.nav-5 ul li:nth-child(3):hover{
+    background-color: rgb(255, 132, 0);
+    color: white;
+}
+.nav-5 ul li:nth-child(4):hover{
+    background-color: rgb(255, 9, 9);
+    color: white;
+}
+
+/*  navbar{
+    position: fixed;
+    top: 0;
+    overflow: ;
+    
+} */
+
+.nav-4 a:link{
+    text-decoration: none;
+    color: black;
+}
+.nav-4 a:visited{
+    color: black;
+}
+.nav-4 a:hover{
+    color: rgb(98, 35, 157);
+}
+.navigation a:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navigation a:visited{
+    color: rgb(255, 255, 255);
+}
+.navigation a:hover{
+    color: blueviolet;
+}
+.navigation a{
+    background-color: transparent;
+    color: white;
+}
+.menu-area a:link{
+    text-decoration: none;
+    color: black;
+}
+.menu-area a:visited{
+    color: black;
+}
+.menu-area a:hover{
+    color: blueviolet;
+}
+
+
+/*--- pro mode social menu styling is here ---*/

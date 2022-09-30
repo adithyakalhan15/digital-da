@@ -1,0 +1,42 @@
+.projects-body{
+    height: 380px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:420px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .nav-1 img{
+        width: 150px;
+        margin: 20px 0 0 30px;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 9fr 1fr;
+        margin: auto;
+    }
+    .nav-1 h2{
+        padding: 0 0 0 5px;
+    }
+    .nav-2 img{
+        display: grid;
+        width: 25px;
+        margin: 20px 0 0 0;
+        top: 10%;
+    }
+    .nav-4{
+        display: none;
+    }
+    .nav-5{
+        display: none;
+    }
+}

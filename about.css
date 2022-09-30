@@ -1,0 +1,80 @@
+@media (min-width:1080px){
+    .mid-section-about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .about-body{
+    height: 380px;
+}
+}
+
+
+
+.about-body{
+    padding: 20px 0 0 0;
+    width: 700px;
+    background-color: blueviolet;
+    
+}
+.about-body h3{
+    text-align: center;
+    background-color: transparent;
+    color: aliceblue;
+}
+.about-body p{
+    text-align: justify;
+    padding: 20px 30px 0 30px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    line-height: 30px;
+}
+.contact-details{
+    background-color: blueviolet;
+    margin: auto;
+    padding: 20px 0 30px 20px;
+}
+.contact-details p{
+    background-color: transparent;
+    padding: 30px;
+    color: white;
+    margin: auto;
+}
+.contact-details button{
+    margin: 0 0 0 50px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    color: purple;
+    font-weight: 600;
+    margin: auto;
+}
+.contact-details a{
+    background-color: transparent;
+}
+
+@media (max-width:1080px){
+    .mid-section-about{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        
+    }
+    .about-body{
+        width: 100%;
+        display: grid;
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: auto;
+    }
+    .about-body p{
+        width: 80%;
+    }
+    .contact-details{
+        display: grid;
+        grid-row: 2;
+        width: 80%;
+    }
+}

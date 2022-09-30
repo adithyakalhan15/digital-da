@@ -1,0 +1,84 @@
+
+
+@media (min-width:421px){
+    .nav-1 img{
+        width: 200px;
+        margin: 20px 0 0 30px;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 9fr 3fr 1fr;
+        margin: auto;
+        z-index: 9;
+    }
+    .nav-2{
+        display: none;
+    }
+    .nav-4 ul{
+        list-style-type: none;
+        display: flex;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 30px;
+    }
+    .nav-4 ul li{
+        padding: 0 15px 0 15px;
+        margin-top: 5px;
+    }
+    
+    .nav-5 ul{
+        list-style-type: none;
+        z-index: 9;
+    }
+    .nav-5 ul li{
+        padding: 1px;
+        margin: auto;
+    }
+    
+    .nav-4 img{
+        width: 40px;
+        padding: 0 20px 0 50px;
+    }
+    .nav-off{
+        position: absolute;
+        top: 15%;
+        right: 4%;
+        transform: translate(42%,-45%) scale(0.1);
+        visibility: hidden;
+        transition-duration: 0.3s;
+    }
+    .social-popup-icons{
+        background-color: transparent;
+    }
+    .social-popup-icons img{
+        position: absolute;
+        width: 35px;
+        background-color: transparent;
+    }
+    .social-popup-icons img:nth-child(1){
+        top: 8%;
+        left: 13%;
+    }
+    .social-popup-icons img:nth-child(2){
+        top: 30%;
+        left: 13%;
+    }
+    .social-popup-icons img:nth-child(3){
+        top: 52.5%;
+        left: 13%;
+    }
+    .social-popup-icons img:nth-child(4){
+        top: 75%;
+        left: 13%;
+        
+    }
+
+    .open-nav-5{
+        position: absolute;
+        top: 15%;
+        right: 4%;
+        transform: scale(1);
+        transition-duration: 0.3s;
+        z-index: 9;
+    }
+}
