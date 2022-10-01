@@ -1,10 +1,11 @@
 *{
     background: rgb(247, 255, 253);
+    
 }
 
 @media (max-width:420px){
     body{
-        margin: 0;
+        margin: auto;
         overflow-x: hidden;
     }
     .nav-1 img{
@@ -266,8 +267,6 @@
         padding: 0 0 0 10px;
     }
     .m-menu-closed{
-        transform: translateX(200px);
-        overflow: hidden;
         transition: 0.3s;
     }
     .m-menu-open{
