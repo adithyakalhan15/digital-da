@@ -22,11 +22,13 @@ $(document).ready(function(){
         $("#social-pro").toggleClass("nav-off open-nav-5");
     });
     $("#m-menu").click(function(){
-        $("#m-menu-open").toggleClass("m-menu-closed m-menu-open");
-        $("body").toggleClass("m-menu-closed m-menu-open");
+        // $("#m-menu-open").toggleClass("m-menu-closed m-menu-open");
+        // $("body").toggleClass("m-menu-closed m-menu-open");
+        $("#m-menu-open").show(0.3);
     });
     $("#m-menu-close").click(function(){
-        $("#m-menu-open").toggleClass("m-menu-closed m-menu-open");
+        // $("#m-menu-open").toggleClass("m-menu-closed m-menu-open");
+        $("#m-menu-open").hide(0.3);
     });
 });
 
